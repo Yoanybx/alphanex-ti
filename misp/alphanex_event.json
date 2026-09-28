@@ -1,0 +1,19 @@
+{
+  "Event": {
+    "info": "AlphaNex / Lazarus - Contagious Interview variant",
+    "threat_level_id": "1",
+    "analysis": "2",
+    "distribution": "0",
+    "Attribute": [
+      {"type": "domain", "category": "Network activity", "value": "zoo-eta1.vercel.app", "to_ids": true},
+      {"type": "ip-dst", "category": "Network activity", "value": "45.61.134.57", "to_ids": true},
+      {"type": "sha256", "category": "Payload delivery", "value": "bcd3d24f96fd0da1015869774a56c3710136c76bbab108e163f1cef38f913cce", "to_ids": true},
+      {"type": "filename", "category": "Artifacts dropped", "value": "wcl3ce", "to_ids": true},
+      {"type": "url", "category": "Network activity", "value": "https://zoo-eta1.vercel.app/task/parser5?token=258365314", "to_ids": true}
+    ],
+    "Tag": [
+      {"name": "lazarus"},
+      {"name": "tlp:white"}
+    ]
+  }
+}

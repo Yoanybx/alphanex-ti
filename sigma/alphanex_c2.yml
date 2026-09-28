@@ -1,0 +1,20 @@
+title: AlphaNex C2 Communication
+id: a1b2c3d4-1111-2222-3333-444455556666
+status: experimental
+description: Detecta conexiones al C2 de AlphaNex (Lazarus)
+author: gepsygainza
+date: 2026/09/28
+tags:
+    - attack.command_and_control
+logsource:
+    category: proxy
+detection:
+    selection:
+        c-uri|contains:
+            - 'zoo-eta1.vercel.app'
+            - '/task/parser5'
+            - 'token=258365314'
+        dst_ip:
+            - '45.61.134.57'
+    condition: selection
+level: critical

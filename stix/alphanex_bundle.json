@@ -1,0 +1,52 @@
+{
+  "type": "bundle",
+  "id": "bundle--a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "spec_version": "2.1",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--11111111-1111-1111-1111-111111111111",
+      "created": "2026-09-28T19:00:00.000Z",
+      "modified": "2026-09-28T19:00:00.000Z",
+      "name": "AlphaNex Threat Analysis",
+      "identity_class": "individual"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--44444444-4444-4444-4444-444444444444",
+      "created": "2026-09-28T19:00:00.000Z",
+      "modified": "2026-09-28T19:00:00.000Z",
+      "name": "C2 domain: zoo-eta1.vercel.app",
+      "pattern": "[domain-name:value = 'zoo-eta1.vercel.app']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-14T00:00:00.000Z",
+      "labels": ["malicious-activity"]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--55555555-5555-5555-5555-555555555555",
+      "created": "2026-09-28T19:00:00.000Z",
+      "modified": "2026-09-28T19:00:00.000Z",
+      "name": "C2 IP: 45.61.134.57",
+      "pattern": "[ipv4-addr:value = '45.61.134.57']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-14T00:00:00.000Z",
+      "labels": ["malicious-activity"]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--66666666-6666-6666-6666-666666666666",
+      "created": "2026-09-28T19:00:00.000Z",
+      "modified": "2026-09-28T19:00:00.000Z",
+      "name": "Payload hash",
+      "pattern": "[file:hashes.'SHA-256' = 'bcd3d24f96fd0da1015869774a56c3710136c76bbab108e163f1cef38f913cce']",
+      "pattern_type": "stix",
+      "valid_from": "2026-09-28T00:00:00.000Z",
+      "labels": ["malicious-activity"]
+    }
+  ]
+}
