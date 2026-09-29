@@ -1,0 +1,11 @@
+=== IOCs adicionales (Shodan) ===
+
+IP: 45.61.134.57
+Hostname reverse: 57.134.61.45.static.cloudzy.com
+ASN: 14956 (RouterHosting LLC)
+OS: Linux Ubuntu 24.04
+Puerto abierto: 22 (SSH)
+SSH banner: SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13.9
+SSH fingerprint SHA256: 49:b3:04:c0:ce:d5:3b:4f:e7:8f:fb:ff:07:5c:3e:d9
+Última observación: 2026-09-28
+Fuente: Shodan.io
